@@ -1,0 +1,12 @@
+Source: ros-hydro-test-osm
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-geodesy, ros-hydro-geographic-msgs, ros-hydro-osm-cartography, ros-hydro-rostest, ros-hydro-route-network
+Homepage: http://ros.org/wiki/test_osm
+Standards-Version: 3.9.2
+
+Package: ros-hydro-test-osm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geodesy, ros-hydro-geographic-msgs, ros-hydro-osm-cartography, ros-hydro-route-network
+Description: These are regression tests for the osm_cartography and route_network packages. They are packaged separately to avoid unnecessary implementation dependencies.
