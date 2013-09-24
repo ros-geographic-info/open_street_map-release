@@ -1,7 +1,7 @@
 <package>
 
   <name>route_network</name>
-  <version>0.2.0</version>
+  <version>0.2.1</version>
   <description>
      Route network graphing and path planning.
   </description>
@@ -14,6 +14,8 @@
   <url type="bugtracker">https://github.com/ros-geographic-info/open_street_map/issues</url>
 
   <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roslaunch</build_depend> <!-- only for testing -->
 
   <build_depend>dynamic_reconfigure</build_depend>
   <build_depend>geodesy</build_depend>
