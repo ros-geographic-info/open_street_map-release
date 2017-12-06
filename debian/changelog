@@ -1,0 +1,38 @@
+ros-kinetic-test-osm (0.2.4-0jessie) jessie; urgency=high
+
+  * Convert to package xml format 2, add rostest dependency
+  * Contributors: Bence Magyar
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Wed, 06 Dec 2017 00:00:00 -0000
+
+ros-kinetic-test-osm (0.2.3-0jessie) jessie; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Sun, 11 Oct 2015 23:00:00 -0000
+
+ros-kinetic-test-osm (0.2.2-0jessie) jessie; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Wed, 07 Oct 2015 23:00:00 -0000
+
+ros-kinetic-test-osm (0.2.1-0jessie) jessie; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Mon, 23 Sep 2013 23:00:00 -0000
+
+ros-kinetic-test-osm (0.2.0-0jessie) jessie; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Tue, 17 Sep 2013 23:00:00 -0000
+
+ros-kinetic-test-osm (0.1.0-0jessie) jessie; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Sun, 15 Jul 2012 23:00:00 -0000
+
+
