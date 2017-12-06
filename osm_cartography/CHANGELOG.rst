@@ -1,6 +1,16 @@
 Change history
 ==============
 
+0.2.4 (2017-12-06)
+------------------
+* Convert to package xml format 2 and add launch file dependencies
+* Possibility to compute paths between GeoPoints.
+* Remove unused map file.
+* Add Ixtapa testing map.
+* Add default configuration for RVIZ.
+* Create new launch file to start all the needed nodes to plan on a map.
+* Contributors: Bence Magyar, Diego Ramos
+
 0.2.3 (2015-10-12)
 ------------------
 
