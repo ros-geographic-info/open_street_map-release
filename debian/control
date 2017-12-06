@@ -1,0 +1,12 @@
+Source: ros-lunar-route-network
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-dynamic-reconfigure, ros-lunar-geodesy, ros-lunar-geographic-msgs, ros-lunar-geometry-msgs, ros-lunar-nav-msgs, ros-lunar-roslaunch, ros-lunar-rospy, ros-lunar-rostest, ros-lunar-visualization-msgs
+Homepage: http://ros.org/wiki/route_network
+Standards-Version: 3.9.2
+
+Package: ros-lunar-route-network
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-dynamic-reconfigure, ros-lunar-geodesy, ros-lunar-geographic-msgs, ros-lunar-geometry-msgs, ros-lunar-nav-msgs, ros-lunar-rospy, ros-lunar-visualization-msgs
+Description: Route network graphing and path planning.
