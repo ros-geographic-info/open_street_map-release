@@ -1,0 +1,12 @@
+Source: ros-lunar-osm-cartography
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-dynamic-reconfigure, ros-lunar-geodesy, ros-lunar-geographic-msgs, ros-lunar-geometry-msgs, ros-lunar-roslaunch, ros-lunar-rospy, ros-lunar-std-msgs, ros-lunar-tf, ros-lunar-visualization-msgs
+Homepage: http://ros.org/wiki/osm_cartography
+Standards-Version: 3.9.2
+
+Package: ros-lunar-osm-cartography
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-dynamic-reconfigure, ros-lunar-geodesy, ros-lunar-geographic-msgs, ros-lunar-geometry-msgs, ros-lunar-rospy, ros-lunar-route-network, ros-lunar-rviz, ros-lunar-std-msgs, ros-lunar-tf, ros-lunar-visualization-msgs
+Description: Geographic mapping using Open Street Map data.
