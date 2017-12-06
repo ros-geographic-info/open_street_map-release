@@ -1,3 +1,29 @@
+## open_street_map (lunar) - 0.2.4-0
+
+The packages in the `open_street_map` repository were released into the `lunar` distro by running `/usr/bin/bloom-release open_street_map --track lunar --rosdistro lunar` on `Wed, 06 Dec 2017 22:11:00 -0000`
+
+These packages were released:
+- `osm_cartography`
+- `route_network`
+- `test_osm`
+
+Version of package(s) in repository `open_street_map`:
+
+- upstream repository: https://github.com/ros-geographic-info/open_street_map.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.4-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.1`
+- catkin_pkg version: `0.3.9`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## open_street_map (kinetic) - 0.2.4-0
 
 The packages in the `open_street_map` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release open_street_map --track kinetic --rosdistro kinetic` on `Wed, 06 Dec 2017 20:15:01 -0000`
