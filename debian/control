@@ -1,0 +1,12 @@
+Source: ros-melodic-osm-cartography
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-dynamic-reconfigure, ros-melodic-geodesy, ros-melodic-geographic-msgs, ros-melodic-geometry-msgs, ros-melodic-roslaunch, ros-melodic-rospy, ros-melodic-std-msgs, ros-melodic-tf, ros-melodic-visualization-msgs
+Homepage: http://ros.org/wiki/osm_cartography
+Standards-Version: 3.9.2
+
+Package: ros-melodic-osm-cartography
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-dynamic-reconfigure, ros-melodic-geodesy, ros-melodic-geographic-msgs, ros-melodic-geometry-msgs, ros-melodic-rospy, ros-melodic-route-network, ros-melodic-std-msgs, ros-melodic-tf, ros-melodic-visualization-msgs
+Description: Geographic mapping using Open Street Map data.
