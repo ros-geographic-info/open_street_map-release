@@ -1,6 +1,9 @@
 Change history
 ==============
 
+0.2.5 (2020-01-14)
+------------------
+
 0.2.4 (2017-12-06)
 ------------------
 * Convert to package xml format 2 and add launch file dependencies
