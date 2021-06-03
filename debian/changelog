@@ -1,0 +1,59 @@
+ros-noetic-osm-cartography (0.3.0-1focal) focal; urgency=high
+
+  * Migrate to Noetic
+  * Contributors: Bence Magyar
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Wed, 02 Jun 2021 23:00:00 -0000
+
+ros-noetic-osm-cartography (0.2.5-1focal) focal; urgency=high
+
+  * Remove dependency on rviz from osm_cartography (#18 <https://github.com/ros-geographic-info/open_street_map/issues/18>)
+    rviz isn't a strict requirement for running the map server and people who want to use the rviz functionality probably already have rviz installed.
+  * Publish static marker with time 0. (#14 <https://github.com/ros-geographic-info/open_street_map/issues/14>)
+  * Contributors: Ronald Ensing, Will Gardner
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Tue, 14 Jan 2020 00:00:00 -0000
+
+ros-noetic-osm-cartography (0.2.4-1focal) focal; urgency=high
+
+  * Convert to package xml format 2 and add launch file dependencies
+  * Possibility to compute paths between GeoPoints.
+  * Remove unused map file.
+  * Add Ixtapa testing map.
+  * Add default configuration for RVIZ.
+  * Create new launch file to start all the needed nodes to plan on a map.
+  * Contributors: Bence Magyar, Diego Ramos
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Wed, 06 Dec 2017 00:00:00 -0000
+
+ros-noetic-osm-cartography (0.2.3-1focal) focal; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Sun, 11 Oct 2015 23:00:00 -0000
+
+ros-noetic-osm-cartography (0.2.2-1focal) focal; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Wed, 07 Oct 2015 23:00:00 -0000
+
+ros-noetic-osm-cartography (0.2.1-1focal) focal; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Mon, 23 Sep 2013 23:00:00 -0000
+
+ros-noetic-osm-cartography (0.2.0-1focal) focal; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Tue, 17 Sep 2013 23:00:00 -0000
+
+ros-noetic-osm-cartography (0.1.0-1focal) focal; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Sun, 15 Jul 2012 23:00:00 -0000
+
+
