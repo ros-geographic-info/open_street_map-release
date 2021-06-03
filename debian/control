@@ -1,0 +1,12 @@
+Source: ros-noetic-osm-cartography
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-dynamic-reconfigure, ros-noetic-geodesy, ros-noetic-geographic-msgs, ros-noetic-geometry-msgs, ros-noetic-roslaunch, ros-noetic-rospy, ros-noetic-std-msgs, ros-noetic-tf, ros-noetic-visualization-msgs
+Homepage: http://ros.org/wiki/osm_cartography
+Standards-Version: 3.9.2
+
+Package: ros-noetic-osm-cartography
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-dynamic-reconfigure, ros-noetic-geodesy, ros-noetic-geographic-msgs, ros-noetic-geometry-msgs, ros-noetic-rospy, ros-noetic-route-network, ros-noetic-std-msgs, ros-noetic-tf, ros-noetic-visualization-msgs
+Description: Geographic mapping using Open Street Map data.
