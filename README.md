@@ -1,3 +1,29 @@
+## open_street_map (noetic) - 0.3.0-1
+
+The packages in the `open_street_map` repository were released into the `noetic` distro by running `/home/bence/.local/bin/bloom-release --track noetic --rosdistro noetic open_street_map --edit` on `Thu, 03 Jun 2021 07:25:27 -0000`
+
+These packages were released:
+- `osm_cartography`
+- `route_network`
+- `test_osm`
+
+Version of package(s) in repository `open_street_map`:
+
+- upstream repository: https://github.com/ros-geographic-info/open_street_map.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## open_street_map (melodic) - 0.2.5-1
 
 The packages in the `open_street_map` repository were released into the `melodic` distro by running `/usr/local/bin/bloom-release open_street_map --track melodic --ros-distro melodic --edit` on `Tue, 14 Jan 2020 12:29:45 -0000`
