@@ -1,0 +1,12 @@
+Source: ros-noetic-route-network
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-dynamic-reconfigure, ros-noetic-geodesy, ros-noetic-geographic-msgs, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-roslaunch, ros-noetic-rospy, ros-noetic-rostest, ros-noetic-visualization-msgs
+Homepage: http://ros.org/wiki/route_network
+Standards-Version: 3.9.2
+
+Package: ros-noetic-route-network
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-dynamic-reconfigure, ros-noetic-geodesy, ros-noetic-geographic-msgs, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-rospy, ros-noetic-visualization-msgs
+Description: Route network graphing and path planning.
