@@ -1,0 +1,13 @@
+Source: ros-noetic-test-osm
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-geodesy, ros-noetic-geographic-msgs, ros-noetic-osm-cartography, ros-noetic-route-network
+Homepage: http://ros.org/wiki/test_osm
+Standards-Version: 3.9.2
+
+Package: ros-noetic-test-osm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-geodesy, ros-noetic-geographic-msgs, ros-noetic-osm-cartography, ros-noetic-route-network
+Description: These are regression tests for the osm_cartography and route_network packages.
+ They are packaged separately to avoid unnecessary implementation dependencies.
