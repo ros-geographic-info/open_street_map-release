@@ -1,6 +1,11 @@
 Change history
 ==============
 
+0.3.0 (2021-06-03)
+------------------
+* Migrate to Noetic
+* Contributors: Bence Magyar
+
 0.2.5 (2020-01-14)
 ------------------
 
